@@ -1,0 +1,29 @@
+.story {
+    display: flex;
+    flex-direction: column;
+
+    &-title {
+        &-link {
+            font-size: 1.2em;
+        }
+
+        &-hostname {
+            &,
+            a {
+                color: rgb(141, 141, 141);
+            }
+
+            a {
+                text-decoration: none;
+                
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    &-info {
+        margin-top: 5px;
+    }
+}

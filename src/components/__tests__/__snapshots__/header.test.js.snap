@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/header should render a text info if the app is offline 1`] = `
+<div
+  className="header"
+>
+  <span
+    className="header-title"
+  >
+    <span
+      className="t-boldi"
+    >
+      HACKER
+    </span>
+    <span
+      className="t-bold"
+    >
+      NEWS
+    </span>
+  </span>
+  <span
+    className="header-offline"
+  >
+    <FaExclamationTriangle
+      className="header-offline-icon"
+    />
+    <span
+      className="header-offline-text"
+    >
+      App offline. No cached news found. Please refresh to try again.
+    </span>
+  </span>
+</div>
+`;
+
+exports[`components/header should render correctly 1`] = `
+<div
+  className="header"
+>
+  <span
+    className="header-title"
+  >
+    <span
+      className="t-boldi"
+    >
+      HACKER
+    </span>
+    <span
+      className="t-bold"
+    >
+      NEWS
+    </span>
+  </span>
+</div>
+`;

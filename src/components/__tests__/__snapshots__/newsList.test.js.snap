@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/newsList should render correctly 1`] = `
+<InfiniteScroller
+  isFetching={false}
+  isOffline={false}
+  onScrollBottomReached={[Function]}
+>
+  <ul
+    className="newslist"
+  >
+    <NewsListItem
+      by="author"
+      id={10}
+      key="10"
+      time={1512157581}
+      title="title"
+      url="http://www.url.com/url/url/"
+    />
+    <NewsListItem
+      by="author2"
+      id={20}
+      key="20"
+      time={1512157582}
+      title="title2"
+      url="http://www.url2.com/url2/url2/"
+    />
+  </ul>
+</InfiniteScroller>
+`;
+
+exports[`components/newsList should render correctly when fetching 1`] = `
+<InfiniteScroller
+  isFetching={true}
+  isOffline={false}
+  onScrollBottomReached={[Function]}
+>
+  <ul
+    className="newslist"
+  >
+    <NewsListItem
+      by="author"
+      id={10}
+      key="10"
+      time={1512157581}
+      title="title"
+      url="http://www.url.com/url/url/"
+    />
+    <NewsListItem
+      by="author2"
+      id={20}
+      key="20"
+      time={1512157582}
+      title="title2"
+      url="http://www.url2.com/url2/url2/"
+    />
+    <li
+      className="newslist-loader"
+    >
+      <onlyUpdateForKeys(Loader)
+        color="#000000"
+        loading={true}
+        margin="2px"
+        size={10}
+      />
+    </li>
+  </ul>
+</InfiniteScroller>
+`;

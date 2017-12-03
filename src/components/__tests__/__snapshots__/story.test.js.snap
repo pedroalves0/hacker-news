@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/story should render correctly 1`] = `
+<div
+  className="story"
+>
+  <div
+    className="story-title"
+  >
+    <a
+      className="story-title-link"
+      href="http://www.url.com/url/url/"
+    >
+      title
+    </a>
+    <span
+      className="story-title-hostname"
+    >
+       (
+      <a
+        href="http://www.url.com"
+      >
+        url.com
+      </a>
+      )
+    </span>
+  </div>
+  <div
+    className="story-info"
+  >
+    <span>
+      by 
+      <span
+        className="t-ital"
+      >
+        author
+         - 
+      </span>
+    </span>
+    <TimeAgo
+      component="time"
+      date={2017-12-01T19:46:21.000Z}
+      formatter={[Function]}
+      live={true}
+      maxPeriod={Infinity}
+      minPeriod={0}
+      now={[Function]}
+    />
+  </div>
+</div>
+`;

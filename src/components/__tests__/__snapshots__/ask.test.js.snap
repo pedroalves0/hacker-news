@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/ask should render correctly 1`] = `
+<div
+  className="ask"
+>
+  <div
+    className="ask-title"
+  >
+    <span>
+      title
+    </span>
+    <button
+      className="ask-title-toggle"
+      onClick={[Function]}
+    >
+      <FaPlusSquare />
+    </button>
+  </div>
+  <div
+    className="ask-info"
+  >
+    <span>
+      by 
+      <span
+        className="t-ital"
+      >
+        author
+         - 
+      </span>
+    </span>
+    <TimeAgo
+      component="time"
+      date={2017-12-01T19:46:21.000Z}
+      formatter={[Function]}
+      live={true}
+      maxPeriod={Infinity}
+      minPeriod={0}
+      now={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`components/ask should render the ask text if the toggle button is clicked 1`] = `
+<div
+  className="ask"
+>
+  <div
+    className="ask-title"
+  >
+    <span>
+      title
+    </span>
+    <button
+      className="ask-title-toggle"
+      onClick={[Function]}
+    >
+      <FaPlusSquare />
+    </button>
+  </div>
+  <div
+    className="ask-info"
+  >
+    <span>
+      by 
+      <span
+        className="t-ital"
+      >
+        author
+         - 
+      </span>
+    </span>
+    <TimeAgo
+      component="time"
+      date={2017-12-01T19:46:21.000Z}
+      formatter={[Function]}
+      live={true}
+      maxPeriod={Infinity}
+      minPeriod={0}
+      now={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`components/ask should render the ask text if the toggle button is clicked 2`] = `
+<div
+  className="ask"
+>
+  <div
+    className="ask-title"
+  >
+    <span>
+      title
+    </span>
+    <button
+      className="ask-title-toggle"
+      onClick={[Function]}
+    >
+      <FaMinusSquare />
+    </button>
+  </div>
+  <div
+    className="ask-info"
+  >
+    <span>
+      by 
+      <span
+        className="t-ital"
+      >
+        author
+         - 
+      </span>
+    </span>
+    <TimeAgo
+      component="time"
+      date={2017-12-01T19:46:21.000Z}
+      formatter={[Function]}
+      live={true}
+      maxPeriod={Infinity}
+      minPeriod={0}
+      now={[Function]}
+    />
+  </div>
+  <p
+    className="ask-content"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "text",
+      }
+    }
+  />
+</div>
+`;

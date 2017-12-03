@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/newsList/newsListItem should render a story if url is passed 1`] = `
+<li
+  className="newslist-item"
+>
+  <Story
+    by="author"
+    id={100}
+    time={1512157581}
+    title="title"
+    url="http://www.url.com/url/url/"
+  />
+</li>
+`;
+
+exports[`components/newsList/newsListItem should render an ask story if url is not passed 1`] = `
+<li
+  className="newslist-item"
+>
+  <Ask
+    by="author"
+    id={100}
+    time={1512157581}
+    title="title"
+  />
+</li>
+`;

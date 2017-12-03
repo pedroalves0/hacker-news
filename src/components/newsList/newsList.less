@@ -1,0 +1,43 @@
+@import '../../constants.less';
+
+@newslist-width: 960px;
+
+.newslist {
+    height: 100%;
+    max-width: @newslist-width;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border-left: 1px solid @app-border-color;
+    border-right: 1px solid @app-border-color;
+    
+
+    &-item {
+        padding: 20px;
+        background-color: @app-background-color;
+        
+        &:nth-child(odd) {
+            background-color: rgb(255, 255, 255);
+        }  
+    }
+
+    &-loader {
+        padding: 15px 0;
+        border-bottom: 1px solid @app-border-color;
+        text-align: center;
+
+        & > div > div {
+            background: @app-alternative-color;
+            margin: 4px;
+
+            &:nth-child(even) {
+                background: rgb(0, 0, 0);
+            }
+        }
+    }
+}
+
+@media (max-width : @newslist-width) {
+    .newslist {
+        border: none;
+    }
+}

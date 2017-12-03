@@ -1,0 +1,42 @@
+{
+    "parser": "babel-eslint",
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true,
+        "experimentalObjectRestSpread": true
+      }
+    },
+    "env": {
+      "browser": true,
+      "es6": true,
+      "jest/globals": true
+    },
+    "rules": {
+      "valid-jsdoc": 2,
+      "react/jsx-uses-react": 1,
+      "react/jsx-no-undef": 2,
+      "react/jsx-wrap-multilines": 2,
+      "react/no-string-refs": 0,
+      "react/no-find-dom-node": 0,
+      "react/prop-types": [2, { "ignore": ["children"] }],
+      "semi": [2, "always"],
+      "quotes": ["error", "single"],
+      "react/jsx-indent": [1, 4],
+      "object-curly-spacing": ["error", "always", { "arraysInObjects": false, "objectsInObjects": false }],
+      "keyword-spacing": ["error", { "before": true, "after": true }],
+      "comma-dangle": ["error", "never"],
+      "indent": ["error", 4, { "SwitchCase": 1 }],
+      "no-fallthrough": ["error"]
+    },
+    "plugins": [
+      "react",
+      "jsx-a11y",
+      "jest"
+    ]
+  }

@@ -1,0 +1,39 @@
+@import '../../constants.less';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: @header-height;
+    position: fixed;
+    top: 0;
+    padding: 8px;
+    background: rgb(255, 255, 255);
+    border-bottom: 1px solid @app-border-color;
+
+    &-title {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 1.4em;
+        margin-right: 10px;
+
+        span:last-child {
+            color: @app-alternative-color;
+        }
+    }
+
+    &-offline {
+        line-height: 1.6em;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        &-icon {
+            color: @app-alternative-color;
+            font-size: 1.2em;
+        }
+
+        &-text {
+            padding-left: 5px;
+        }
+    }
+}
